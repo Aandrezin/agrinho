@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#destaque {
+    height: 86vh;
+ }
+
+header {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-size: 34px;
+    background-color: #ff4d00;
+    color: #fff;
+    padding: 30px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-size: 34px;
+
+}
+
+header nav ul {
+    list-style-type: none;
+    background-color: #ff4d00; /* Cor de fundo do botão */
+    border: 2px solid transparent; /* Borda transparente para efeito gradiente */
+    color: white; /* Cor do texto */
+    padding: 20px 20px; /* Espaçamento interno */
+    text-align: ; /* Alinhamento do texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block; /* Ajusta o botão ao conteúdo */
+    font-size: 34px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem ao redor do botão */
+    cursor: pointer; /* Muda o cursor para indicar clicável */
+    border-radius: 20px; /* Borda arredondada */
+    background: -webkit-radial-gradient(#ff4f03, #f4490090);
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 0px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+#destaque {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+#destaque .container {
+    text-align: center;
+}
+
+#destaque h2 {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#destaque p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+#destaque .btn {
+    display: inline-block;
+    background-color: #ff4d00;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#destaque .btn:hover {
+    background-color: #ff4d00;
+}
+
+footer {
+    background-color: #ff4d00;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    height: 60px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer .container {
+    max-width: 960px;
+    margin: 0 auto;
+}
